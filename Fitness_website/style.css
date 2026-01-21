@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: white; 
+}
+
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 80px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    position: relative;
+    
+}
+
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+        
+
+.logo span {
+    color: red; 
+}
+
+.nav-links {
+    list-style: none;
+    display: flex; 
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 15px; 
+    border-radius: 4px; 
+}
+
+
+.nav-links a:hover {
+    background-color: green; 
+    color: white;
+}
+
+.hero{
+    height: 100vh; 
+    background-image: url("images/Homepage.png");
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+
+.hero h1{
+    color: white;
+    font-size: 64px;
+
+}
+.hero span{
+    color: red;
+    font-size: 64px;
+}
+.hero a{
+    padding: 15px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+
+/* CLUBS */
+
+.clubs-part {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px; 
+}
+
+.page-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: black;
+}
+
+.club-card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid white; 
+    text-align: center;
+}
+
+.club-image {
+    width: 100%;
+    max-width: 600px; 
+    height: auto;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.club-info h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.club-info p {
+    font-size: 24px;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+}
+
+
+/* MEMBERSHİP-PART */
+
+.membership-page {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.plans-section {
+    padding: 40px 20px;
+    text-align: center;
+    flex: 1;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.plans-part {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap; 
+}
+
+ 
+.plan-card {
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    margin-right: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.plan-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: black;
+}
+
+
+.btn-try {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.plan-features {
+    list-style: none;
+    text-align: left; 
+    font-size: 14px;
+}
+
+.plan-features li {
+    padding: 8px;
+    border-bottom: 1px solid white;
+    color: black;
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+}
+
+
+/* JOİN PART */
+.join-page {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.join-section {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 40px 20px;
+}
+
+.form-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: black;
+}
+
+.join-form-part {
+    background-color: #f0e8e8; 
+    padding: 40px;
+    border: 1px solid white;
+    width: 100%;
+    max-width: 500px; 
+}
+
+
+.form-group {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 20px;
+}
+
+.form-label {
+    width: 150px;
+    font-weight: bold;
+    color: black;
+}
+
+.form-input {
+    flex: 1; 
+    padding: 10px;
+    border: 1px solid white;
+    font-size: 14px;
+}
+
+.btn-submit {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: red; 
+    color: white;
+    border: none;
+    font-size: 16px;
+    
+    margin-top: 20px;
+    text-align: center;
+}
+.thanks-message {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #e6ffe6;
+    border: 2px solid #2ecc71;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+#thanks:target {
+    display: block;
+}
+
+
+        
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    header { 
+        flex-direction: column; 
+        padding: 15px; 
+        text-align: center; 
+        height: auto;
+    }
+    
+    .logo { margin-bottom: 15px; } 
+
+    nav ul.nav-links { 
+        margin-top: 0; 
+        flex-direction: column; 
+        width: 100%; 
+        padding: 0; 
+    }
+    nav ul.nav-links li { 
+        margin: 5px 0; 
+        margin-left: 0;
+        border-bottom: 1px solid black; 
+        padding-bottom: 5px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home-page .hero { padding: 50px 20px; }
+    .home-page .hero h1 { font-size: 32px; }
+    .home-page .hero p { font-size: 16px; }
+}
+
+@media screen and (max-width: 768px) {
+    .clubs-page .clubs-part { padding: 20px 10px; gap: 30px; }
+    .clubs-page .page-title { font-size: 32px; }
+    .clubs-page .club-image { width: 100%; }
+}
+
+@media screen and (max-width: 1024px) {
+    .membership-page .plans-part { 
+        gap: 15px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .membership-page .plans-part { 
+        flex-direction: column; align-items: center; 
+    }
+    .membership-page .plan-card { 
+        width: 100%; max-width: 400px; margin-bottom: 20px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .join-page .join-form-part { 
+        padding: 20px; 
+    }
+    .join-page .form-title { 
+        font-size: 24px; 
+    }
+    .join-page .form-group { 
+        flex-direction: column; align-items: flex-start; 
+    }
+    .join-page .form-label { 
+        width: 100%; margin-bottom: 5px; 
+    }
+    .join-page .form-input { 
+        width: 100%; 
+    }
+}
