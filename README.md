@@ -28,5 +28,5 @@ Source code is available on GitHub:
 👉 https://github.com/BaranBoztas/fitness-center-website
 
 ## 👤 Author
-Baran  
+Baran Boztaş 
 Computer Programming Student  
